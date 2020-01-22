@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>L-PoD</title>
+	<link rel="stylesheet" href="../css/jquery.mobile-1.3.2.min.css" />
+	<link rel="stylesheet" href="../css/player.css" />
+	<script type="application/javascript" src="../modules/jquery-2.0.3.min.js"></script>
+	<script type="application/javascript" src="../modules/jquery.mobile-1.3.2.min.js"></script>
+	<script type="application/javascript" src="../modules/socket.io.min.js"></script>
+	<script type="application/javascript" src="../js/app_player.js"></script>
+	<script type="application/javascript" src="../js/check.js"></script>
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<div data-role="page" data-theme="c" id="home">
+		<div data-role="header" data-theme="c">
+			<a href="http://waral.shirai.la/" data-icon="back" data-ajax="false">back</a>
+		<!-- ヘッダー -->	
+			<h1>waral</h1>
+		</div>
+		<div data-role="content">
+			<p id="device_check"></p>
+			<p id="debug_view"></p>
+			<p id="video_data">準備中です．デバイスを横持ちでしばらくおまちください．</p>
+			<!-- <p id="play">準備中です．しばらくおまちください．</p> -->
+			<p id="count_view">笑い指数</p>
+		<!-- コンテンツ -->
+		<div class="iframeWrap">
+			<div id="player"><!-- 動画プレーヤーの埋め込み --></div>
+		</div>
+		</div>
+		<div data-role="footer" data-theme="c">
+		<!-- フッター -->	
+		</div>
+	</div>
+</body>

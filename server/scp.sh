@@ -1,0 +1,1 @@
+scp -P 22000 app.js kitada@wp.shirai.la:/home/kitada/socket.io_server
