@@ -99,10 +99,10 @@ class Server
 	mysql: null
 
 	database = 
-			host: 'kagoya.shirai.la',
+			host: 'yourserver'',
 			port: '3306',
 			user: 'node',
-			password: 's0cket1o',
+			password: 'password',
 			database: 'waral'
 
 	#コンストラクタ
